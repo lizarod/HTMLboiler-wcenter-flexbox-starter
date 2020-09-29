@@ -98,10 +98,13 @@ textarea {
 
 /*Large Background Image*/
 html {
-    background: url(../img/bkgd2.jpg) no-repeat center center fixed;
+    background: url(../img/pexels-satoru-takamatsu.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
+
 }
+
+
 
 body {
     height: 100%;
@@ -113,7 +116,7 @@ body {
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -122,21 +125,47 @@ body {
     background: #222;
     background:rgba(0,0,0,0.7);
     color: #fff;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Lora', sans-serif;
     font-weight: 300;
     font-size: 1.25em;
-    line-height: 1.5em;
+    line-height: 2em;
     border-radius: 10px;
-    padding: 0px 30px;
-    width: 300px;
-    height: 300px;
+    padding: 10px 10px;
+    width: 550px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 10px;
+}
+
+#content-two {
+
+    background: #222;
+    background:rgba(0,0,0,0.7);
+    color: #fff;
+    font-family: 'Lora', sans-serif;
+    font-weight: 300;
+    font-size: 1.25em;
+    line-height: 2em;
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 550px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
 }
 
 #content p span {
-    font-family: 'Lora', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: underline;
+}
+
+#content p{
+    max-width: 42ch;
+    text-align: center;
 }
 
 
